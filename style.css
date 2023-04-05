@@ -1,0 +1,60 @@
+html {
+  background: pink;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1500px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  float: left;
+}
+
+.name {
+  color: blueviolet;
+  font-weight: 900;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+.links {
+  float: right;
+  font-size: 40px;
+}
+
+.links {
+  font-weight: 900;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border: solid;
+}
+
+footer {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.face {
+  border: white;
+  text-decoration: none;
+}

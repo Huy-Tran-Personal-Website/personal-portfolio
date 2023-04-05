@@ -1,0 +1,16 @@
+h1 {
+  color: brown;
+  margin: auto;
+  padding-top: 75px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+section {
+  border-top: 1px solid #bbb;
+}
