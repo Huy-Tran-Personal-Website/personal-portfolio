@@ -9,8 +9,31 @@ h1 {
 
 h2 {
   text-decoration: underline;
+  font-size: 30px;
 }
 
-section {
+main {
   border-top: 1px solid #bbb;
 }
+
+main {
+  display: flex;
+}
+
+.music {
+  position: relative;
+  width:350px;
+}
+
+.worry {
+  position: relative;
+  width: 350px;
+  left: 250px;
+}
+
+.sleep {
+  position: relative;
+  width: 350px;
+  left: 500px;
+}
+
