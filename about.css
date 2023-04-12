@@ -1,8 +1,7 @@
 h1 {
   color: brown;
-  margin: auto;
+  margin: 0;
   padding-top: 75px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 1000;
   font-size: 30px;
 }
@@ -11,6 +10,7 @@ h2 {
   text-decoration: underline;
   font-size: 30px;
 }
+
 
 main {
   border-top: 1px solid #bbb;
@@ -21,19 +21,16 @@ main {
 }
 
 .music {
-  position: relative;
-  width:350px;
+  flex-grow: 1;
+  margin: 20px;
 }
 
 .worry {
-  position: relative;
-  width: 350px;
-  left: 250px;
+  flex-grow: 1;
+  margin: 20px;
 }
 
 .sleep {
-  position: relative;
-  width: 350px;
-  left: 500px;
+  flex-grow: 1;
+  margin: 20px;
 }
-

@@ -1,20 +1,24 @@
 h1 {
+  position: relative;
+  left: 79px;
   color: brown;
   margin: auto;
   padding-top: 75px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 1000;
-
+  text-decoration: underline;
 }
 
 h2 {
   color: brown;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
   font-weight: 100;
-  border-top: solid ;
+  margin: 80px;
+
 }
 
 .qoute {
   color: blueviolet;
+  text-align: center;
   padding: 5%;
+  margin-bottom: -5px;
 }
