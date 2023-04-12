@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: pink;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 body {
