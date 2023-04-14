@@ -1,14 +1,14 @@
 h1 {
   color: brown;
-  margin: 0;
+  padding: 30px;
   padding-top: 75px;
   font-weight: 1000;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2 {
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 
@@ -22,15 +22,15 @@ main {
 
 .music {
   flex-grow: 1;
-  margin: 20px;
+  padding: 30px;
 }
 
 .worry {
   flex-grow: 1;
-  margin: 20px;
+  padding: 30px;
 }
 
 .sleep {
   flex-grow: 1;
-  margin: 20px;
+  padding: 30px;
 }

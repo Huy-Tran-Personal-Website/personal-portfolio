@@ -5,16 +5,17 @@
 }
 
 html {
-  background: pink;
+  background: hsl(350, 100%, 88%);
   font-size: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-left: 50px;
 }
 
 header {
-  border: solid;
-  background-color: blue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 75px;
+  background-color: plum;
 }
 
 .name {
@@ -26,13 +27,13 @@ header {
   font-weight: 900;
   padding: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: underline;
 }
 
 .links {
   float: right;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .links {
@@ -54,9 +55,15 @@ img {
 footer .la {
   width: 50px;
   height: 50px;
-
 }
 
 footer {
-  text-align: right;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: plum;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
+ 
