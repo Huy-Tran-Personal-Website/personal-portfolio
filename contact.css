@@ -1,16 +1,41 @@
-.head1 {
-    position: relative;
-    top: 50px;
-    margin-left: 50px;
-
+html {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: plum;
 }
 
 
-.info {
-    font-size: 20px;
-    padding: 20px;
-    margin-top: 100px;
-    margin-left: 50px;
-    max-width: fit-content;
-    border: solid;
+.links {
+    float: right;
+}
+
+.links {
+    font-weight: 900;
+    padding: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    color: brown;
+
+}
+
+.contact-container {
+    font-style: italic;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 35px;
+    height: 50%;
+}
+
+input[type=submit] {
+    background-color: palegoldenrod;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }

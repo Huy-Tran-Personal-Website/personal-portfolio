@@ -11,15 +11,22 @@ h2 {
   text-decoration: underline;
 }
 
-.pa {
-  font-size: 20pxpx;
 
-}
-
-main {
+.flex {
   display: flex;
 }
 
-main {
-  padding: 25px;
+.flex-1 {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.flex-2 {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.flex-3 {
+  flex-grow: 1;
+  padding: 30px;
 }

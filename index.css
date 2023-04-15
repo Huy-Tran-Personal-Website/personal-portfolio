@@ -1,9 +1,8 @@
 h1 {
-  position: relative;
-  left: 79px;
   color: brown;
   margin: auto;
   padding-top: 75px;
+  padding-left: 79px;
   font-weight: 1000;
   text-decoration: underline;
 }
